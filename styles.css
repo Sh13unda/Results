@@ -169,27 +169,45 @@ footer a {
   color: var(--Grayish-blue);
 }
 
-@media screen and (min-width: 749px) {
-  body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  main {
-    width: 750px;
-    display: flex;
-    border-radius: 30px;
-    box-shadow: 0.5rem 1rem 3rem rgba(57, 57, 230, 0.2)
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 25px 12px; /* Adjust padding */
   }
 
-  .header {
-    width: 100%;
-    border-radius:  var(--border-radius);
+  .score {
+    width: 100px; /* Adjust width */
+    height: 100px; /* Adjust height */
+    font-size: 40px; /* Adjust font size */
+  }
+
+  .feedback-header {
+    font-size: 16px; /* Adjust font size */
+    margin-bottom: 5px; /* Adjust margin */
+  }
+
+  .feedback {
+    font-size: 14px; /* Adjust font size */
   }
 
   .summary-sect {
-    width: 100%;
+    padding: 25px 12px; /* Adjust padding */
+  }
+
+  .summary-sect h3 {
+    font-size: 16px; /* Adjust font size */
+    margin-bottom: 10px; /* Adjust margin */
+  }
+
+  .summary-item {
+    padding: 8px; /* Adjust padding */
+  }
+
+  .btn {
+    padding: 12px; /* Adjust padding */
+  }
+
+  footer {
+    margin: 25px; /* Adjust margin */
   }
 }
 
